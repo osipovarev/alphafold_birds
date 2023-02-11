@@ -30,7 +30,7 @@ def main():
     args = parser.parse_args()
 
     ## Parse arguments
-    taxis = args.taxids
+    taxids = args.taxids
     outfile = args.outfile
 
     ## Construct the query url and request data from uniprot
