@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 '''
-This script downloads uniprot table (tsv format) fro all antries for requested taxons
+This script downloads uniprot table (tsv format): it gets all entries for requested taxons, 
+except for fasta sequences
 '''
 
 import argparse
